@@ -1,15 +1,7 @@
-{ config, pkgs, ... }:
+{ config, pkgs, ...}:
 
 {
   imports = [
-    ./hyprland
-    ./terminal
-    ./vscode
+    ./nix
   ];
-
-  home = {
-    username = "luker";
-    homeDirectory = "/home/luker";
-    stateVersion = "23.11";
-  };
 }

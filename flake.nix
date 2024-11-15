@@ -28,7 +28,7 @@
         modules = [
           ./nixos/configuration.nix
           home-manager.nixosModules.home-manager {
-            home-manager.users.luker = import ./config;
+            home-manager.users.luker = import ./nix-config;
           }
 	        ./apps
         ];
